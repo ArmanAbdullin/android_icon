@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[850],
       body: Center(
           child: Container(
         width: 200,
@@ -31,9 +31,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Icon(
           Icons.android,
           size: 80,
+          color: Colors.white,
         ),
         decoration: BoxDecoration(
-          color: Colors.grey[300],
+          color: Colors.grey[850],
           borderRadius: BorderRadius.all(Radius.circular(50)),
           boxShadow: [
             BoxShadow(
